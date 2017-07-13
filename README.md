@@ -1,8 +1,6 @@
-# CoreNFC
+# NFCDemo
 
 ---
-
-[TOC]
 
 ## 关于NFC
 
