@@ -18,6 +18,7 @@ NFC 为 Near Field Communication（近程通信）的缩写。
 不懂各个标签类型什么意思？请[阅读此文](http://www.jianshu.com/p/9242c886148a)，内有对各种卡片和NFC Tag 类型的介绍与区分，还算详细。
 
 copy了文内相关内容，如下：
+
 ![tag type.png-189.6kB][2]
 
 关于NFC的工作原理请[阅读此文](http://blog.csdn.net/eager7/article/details/8525659)来了解。
