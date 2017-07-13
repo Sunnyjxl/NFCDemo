@@ -2,10 +2,7 @@
 
 ---
 
- - 关于NFC
- - CoreNFC
- - 集成
- - 示例代码
+[TOP]
 
 ## 关于NFC
 
@@ -61,8 +58,7 @@ copy了些文内的段落方便查看，如下:
 
 
 
-##CoreNFC
-
+## CoreNFC
 
 使用NFC前需要注意以下几点：
 
@@ -77,7 +73,7 @@ copy了些文内的段落方便查看，如下:
  - 配置读取单个或多个Tag，配置为单个时，会在读取到第一个Tag时自动结束session
 
 
-##集成
+## 集成
 
 
  1. 在developer网站选择Certificates, Identifiers & Profiles
@@ -93,7 +89,7 @@ copy了些文内的段落方便查看，如下:
  ![权限配置.jpeg-99kB][4]
 
 
-##示例代码
+## 示例代码
 
 
 首先来看下目录结构
