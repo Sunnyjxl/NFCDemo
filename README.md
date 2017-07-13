@@ -2,7 +2,7 @@
 
 ---
 
-## 关于NFC
+### 关于NFC
 
 NFC 为 Near Field Communication（近程通信）的缩写。
 功能就是字面意思，近距离无线通讯。
@@ -56,7 +56,7 @@ copy了些文内的段落方便查看，如下:
 
 
 
-## CoreNFC
+### CoreNFC
 
 使用NFC前需要注意以下几点：
 
@@ -71,7 +71,7 @@ copy了些文内的段落方便查看，如下:
  - 配置读取单个或多个Tag，配置为单个时，会在读取到第一个Tag时自动结束session
 
 
-## 集成
+### 集成
 
 
  1. 在developer网站选择Certificates, Identifiers & Profiles
@@ -87,7 +87,7 @@ copy了些文内的段落方便查看，如下:
  ![权限配置.jpeg-99kB][4]
 
 
-## 示例代码
+### 示例代码
 
 
 首先来看下目录结构
@@ -104,7 +104,7 @@ copy了些文内的段落方便查看，如下:
 ```
 
 初始化并启用NFC扫描
-```
+```objective-c
 [self.session invalidateSession];
 self.session = [[NFCNDEFReaderSession alloc] initWithDelegate:self queue:nil invalidateAfterFirstRead:NO];
 if (NFCNDEFReaderSession.readingAvailable) {
@@ -117,7 +117,7 @@ if (NFCNDEFReaderSession.readingAvailable) {
 ```
 
 扫描回调结果
-```
+```objective-c
 #pragma mark - NFCReaderSessionDelegate
 - (void)readerSessionDidBecomeActive:(NFCReaderSession *)session
 {
